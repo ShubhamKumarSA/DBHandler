@@ -1,0 +1,475 @@
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Rammetto+One|Ubuntu|Kalam|Baloo');
+* {
+
+}
+body {
+	/*Prevent Text Copy*/
+	-moz-user-select:none;
+	-o-user-select:none;
+	-ms-user-select:none;
+	-webkit-user-select:none;
+	user-select:none;
+	/*******************/
+	width: 100%;
+	margin: 0px auto;
+/*	background-color: #E6E6FA;*/
+	background:url(../Images/bgCover.png) repeat 0 0;
+	text-align:center;
+	font-family: 'Ubuntu', sans-serif;
+}
+#Page {
+
+}
+#Head {
+	/*font-family: 'Rammetto One', cursive;*/
+	font-family: 'Baloo', cursive;
+	height: 55px;
+	text-align: left !important;
+	color: #F0F7EF;
+/*	background-color: #B4A2D9;*/
+	background:url(../Images/bgCover.png) repeat 0 0;
+	padding-bottom: 10px;
+}
+#HeadIcon {
+	padding-top: 5px;
+	padding-left: 100px;
+	font-size: 25px;
+}
+#HeadMenu {
+	padding-right: 100px;
+	text-align:right;
+	font-size: 15px;
+/*	background-color: white;*/
+}
+#HeadMenu a {
+	text-decoration: none;
+	color: #BBBADB;
+}
+#HeadMenu a:hover {
+	color: #FBFBFB;
+}
+#Content {
+/*	opacity: 0.6;*/
+	font-size: 20px;
+	width: 80%;
+	margin: 0px auto;
+	background-color: White;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 20px;
+	font-family: 'Ubuntu', sans-serif;
+}
+#ContTitle {
+	padding-top: 10px;
+	padding-bottom: 20px;
+	font-size: 19px;
+	font-weight:bold;
+	color: black;
+}
+#ContSubTitle {
+	font-size: 16px;
+	font-weight:bold;
+	padding-bottom: 20px;
+	color: black;
+}
+#DataPane {
+	font-size: 15px;
+	padding-bottom: 20px;
+	text-align:left;
+}
+#Foot {
+	/*font-family: 'Rammetto One', cursive;*/
+	font-family: 'Baloo', cursive;
+	height: 70px;
+	width: 100%;
+	background:url(../Images/bgCover.png) repeat 0 0;
+	padding-bottom: 10px;
+}
+#CopyNote {
+	font-size: 14px;
+}
+#SubsBar {
+	padding-top: 5px;
+	padding-right: 50px;
+    position: relative;
+	text-align: right !important;
+}
+.txtBox {
+/*	padding: 0;*/
+    height: 25px;
+    position: relative;
+    left: 0;
+    outline: none;
+    border: 1px solid #cdcdcd;
+    border-color: rgba(0,0,0,.15);
+    background-color: white;
+    font-size: 16px;
+	width: 200px;
+	border-radius: 5px;
+}
+.ddBox {
+	text-align:justify;
+	/*padding: 0;*/
+    height: 29px;
+    position: relative;
+    left: 0;
+    outline: none;
+    border: 1px solid #cdcdcd;
+    border-color: rgba(0,0,0,.15);
+    background-color: white;
+    font-size: 13px;
+	width: 200px;
+	border-radius: 5px;
+}
+.btnBox {
+	/*padding-left:0px;*/
+	font-size: 16px;
+    height: 27px;
+    position: relative;
+	margin-right: 0px;
+/*	border: 1px solid #cdcdcd;*/
+	width: 95px;
+	cursor: pointer;
+	border:0px;
+	border-radius: 5px;	
+}
+.btnNew {
+	color: white;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	padding: 3px 3px 3px 3px;
+	font-size: 15px;
+	width: 200px;
+	font-weight:bold;
+	/*background: rgb(28, 184, 65);    /*this is a green */
+	/*background: rgb(202, 60, 60);    /* this is a maroon */
+	/*background: rgb(223, 117, 20);   /* this is an orange */
+	background: rgb(66, 184, 221);   /* this is a light blue */
+	border: 0px;
+	border-radius: 5px;	
+}
+.gBox {
+	font-family: 'Ubuntu', sans-serif;
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+    cursor:pointer;
+	width: 200px;
+	border: 0px;
+}
+.gBox.disable {
+	background-image: -webkit-linear-gradient(top, #7F8897, #7F8897);
+    background-image: -moz-linear-gradient(top, #7F8897, #7F8897);
+    background-image: -webkit-linear-gradient(top, #7F8897, #7F8897);
+    background-image: -o-linear-gradient(top, #7F8897, #7F8897);
+    background-image: linear-gradient(to bottom, #7F8897, #7F8897);
+}
+.gBox:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+}
+.gBox.CNew {
+	background-image: -webkit-linear-gradient(top, #2E8B57, #2E8B57);
+    background-image: -moz-linear-gradient(top, #2E8B57, #2E8B57);
+    background-image: -webkit-linear-gradient(top, #2E8B57, #2E8B57);
+    background-image: -o-linear-gradient(top, #2E8B57, #2E8B57);
+    background-image: linear-gradient(to bottom, #2E8B57, #2E8B57);
+	border-radius: 20px;
+}
+#pDP {
+	text-align:center;
+}
+#p1DP {
+	text-align: center;
+}
+#p2DP {
+	text-align: left;
+	font-weight: bolder;
+	text-decoration: underline;
+	padding-left: 50px;
+}
+#ulDP {
+	list-style-type:circle;
+	text-align:left;
+	padding-left: 125px;
+}
+ul,li {
+	padding: 5px 0px 0px 10px;
+}
+#WelcomePane {
+	background-image: url(../Images/Stick_Support.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size: contain;
+	height: 250px;
+}
+/*********************TutorialsHub********************/
+#CopyCont {
+	font-size: 10px;
+	color: #F3EEEE;
+	font-family: 'Ubuntu', sans-serif;
+}
+#lnkDP {
+	text-align:center;
+	border-top: 2px solid;
+	border-radius: 30px;
+	color:#D1B3DB;
+	padding: 10px 0px 10px 0px !important;
+}
+#lnkDP_NA {
+	text-align:center;
+	border-bottom: 2px solid;
+	border-radius: 30px;
+	color:#D1B3DB;
+	padding: 10px 0px 10px 0px !important;
+}
+#lnkDP_NA p {
+		text-align: center;
+		color: white;
+		font-weight: bold;
+		background:#1CAFDC;
+		font-family: 'Kalam', sans-serif;
+}
+.lnkDPtitle {
+	font-family: 'Kalam', sans-serif;
+	text-decoration:underline;
+	font-size: 16px;
+	font-weight:bold;
+	color: Green;
+}
+#contDP {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+#FootLink {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 13px;
+}
+#FootLink a{
+	color: #BBBADB;
+}
+#FootLink a:hover{
+	color: #FFFFFF;
+}
+.linkspan {
+	color: #FFFFFF;	
+}
+#CopyNote {
+	padding-top: 5px;	
+}
+/*Blink Head Title*/
+.blink {
+	width: 20px;
+	height: 20px;
+	animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0.1;
+  }
+}
+/********************Care*********************/
+#imgPane {
+	background-image: url(../Images/DBSupport_1.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size: contain;
+	height: 175px;
+	margin: 0px auto;
+}
+#CareOption {
+	text-align:center;
+}
+#cTable {
+	width:100%;
+	text-align:center;
+}
+.msgArea {
+	font-family: 'Ubuntu', sans-serif;
+	height: 200px;
+	width: 250px;
+	resize:none;
+	left:0;
+    border: 1px solid #cdcdcd;
+    border-color: rgba(0,0,0,.15);
+	border-radius: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	text-align: left;
+    white-space: normal;
+}
+.txtBox.Care {
+	width: 250px;
+	border-radius: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align:center;
+}
+.response {
+	text-align:center;
+	width: 100%;
+	height:20px;
+	background-color: #73A295;
+	border-radius: 60px;
+	font-family: 'Kalam', cursive;
+	font-size:18px;
+	font-weight: bold;
+	color: white;
+	padding: 5px 0px 5px 0px;
+}
+.btnX {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight:bolder;
+	color: red;
+	cursor: pointer;
+}
+.btnX:hover {
+	border: 0px;
+	color: white;
+}
+.QAResult {
+	padding-left: 50px;
+	text-align:left;
+	color: red;
+}
+.rQ {
+	padding-left: 20px;
+	color: red;
+	font-weight:bold;
+	text-transform:capitalize;
+	text-wrap:suppress;
+}
+.rA {
+	padding-left: 20px;
+	color:green;
+	text-transform:capitalize;
+	text-wrap:suppress;
+}
+.QAHeader {
+	padding-left: 50px;
+	text-align:left;
+	color: #4A86A8;
+	font-weight:bold;
+	text-decoration:underline;
+}
+.tncFAQ {
+	text-align:center;
+	color: #FFFFFF;
+	background-color:#5E476E;
+	border-top-style:inset;
+	font-weight:bold;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	animation: FAQblinker 3s linear infinite;
+}
+@keyframes FAQblinker {
+  50% {
+    opacity: 0.1;
+  }
+}
+/************************About Page************************/
+.aboutHead {
+	text-align:center;
+	font-size:15px;
+	background-color:#649692;
+	color: white;
+	border-style:groove;
+	border-top-left-radius:50px;
+	border-top-right-radius:50px;
+}
+.aboutSubHead {
+	text-align:center;
+}
+.ahMsg {
+	font-size:12px;
+}
+.cProfile {
+	text-align:left;
+	padding-left: 100px;
+	font-size:16px;
+	font-weight:bold;
+	text-decoration:underline;
+	color: green;
+}
+/**********************DBAcess*********************/
+.LogOut {
+	cursor:pointer;
+}
+.LogOut:hover {
+	/*background: #1A5876;*/
+	background: #51CDA9;
+	border-radius: 50px;
+}
+#User {
+	font-size: 18px;
+	right:0px;
+	top: 0px;
+	padding-right: 100px;
+	position:absolute;
+	font-family: 'Ubuntu', sans-serif;
+}
+#ULOPanel {
+	text-align:right;
+	padding-right:30px;
+}
+.DBAPage {
+	border-radius: 40px;
+	border: 2px solid #24a866;
+}
+#DAPane {
+	font-family: 'Kalam', sans-serif;
+	font-size: 15px;
+}
+#DATitle {
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration:underline;
+}
+#DASubTitle {
+	font-size: 14px;
+	color: #FF0004;
+}
+.ppAlert {
+	font-size: 11px;
+	color:blue;
+}
+#DAContent {
+}
+.daTable {
+	width: 100%;
+}
+.tdMsg {
+	color:#74788F;
+	font-size: 12px;
+}
+.daTabHead {
+	font-size: 16px;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.ddBox.da {
+	border-radius: 20px;
+	width: 250px;
+	text-align:center;
+	font-family: 'Ubuntu', sans-serif;
+}
+.txtBox.da {
+	border-radius: 20px;
+	width: 245px;
+	text-align:center;
+	font-family: 'Ubuntu', sans-serif;
+}

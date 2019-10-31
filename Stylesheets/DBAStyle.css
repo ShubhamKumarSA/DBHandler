@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Rammetto+One|Ubuntu|Kalam');
+body {
+	width: 100%;
+	margin: 0px auto;
+	background:url(../Images/bgCover.png) repeat 0 0;
+	text-align:center;
+	font-family: 'Kalam', sans-serif;
+	font-style:normal;
+	/*Prevent Text Copy*/
+	-moz-user-select:none;
+	-o-user-select:none;
+	-ms-user-select:none;
+	-webkit-user-select:none;
+	user-select:none;
+	/*******************/
+}
+#Content {
+/*	opacity: 0.6;*/
+	font-size: 20px;
+	width: 60%;
+	height: 500px;
+	background-color: White;
+	position: absolute;
+  	margin: auto;
+  	top: 0;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+	border-radius: 50px;
+	border: 10px solid #7195CB;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.RContent {
+	height: 800px;
+}
+#Title {
+	font-size:18px;
+	padding-top: 10px;
+	width: 500px;
+	padding-left: 50px;
+	text-align:left;
+}
+#Menus {
+	font-size:15px;
+	right:0;
+	top:0;
+	text-align:right;
+	position:absolute;
+	padding-top: 10px;
+	padding-right: 30px;
+
+}
+#Menus a {
+	text-decoration:none;
+}
+#Copy {
+	font-size:14px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+}
+#CopyRegister {
+	font-size:14px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+#Data {
+	font-size: 14px;
+	/*text-align:center;*/
+}
+table {
+	width:100%;
+	text-align:center;
+}
+.txtBox {
+/*	padding: 0;*/
+    height: 25px;
+    position: relative;
+    outline: none;
+    border: 2px solid #cdcdcd;
+    border-color: rgba(0,0,0,.15);
+    background-color: white;
+    font-size: 16px;
+	text-align:center;
+	width: 250px;
+	border-radius: 5px;
+	font-family: 'Ubuntu', sans-serif;
+}
+.RespArea {
+	font-size: 20px;
+	font-weight:bold;
+/*	color:#5E7DBC;*/
+	color: white;
+	background-color:#89C0AB;	
+}
+.InnResp {
+	font-size:13px;
+	background-color: #E8E3E3;
+	color:#F90004;
+}
+.gBox {
+	font-family: 'Ubuntu', sans-serif;
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #2E8B57, #2E8B57);
+    background-image: -moz-linear-gradient(top, #2E8B57, #2E8B57);
+    background-image: -webkit-linear-gradient(top, #2E8B57, #2E8B57);
+    background-image: -o-linear-gradient(top, #2E8B57, #2E8B57);
+    background-image: linear-gradient(to bottom, #2E8B57, #2E8B57);
+	border-radius: 60px;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+    cursor:pointer;
+	width: 110px;
+	border: 0px;
+}
+.gBox:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+}
+.gBox.cNew {
+	background-image: -webkit-linear-gradient(top, #338099, #338099);
+    background-image: -moz-linear-gradient(top, #338099, #338099);
+    background-image: -webkit-linear-gradient(top, #338099, #338099);
+    background-image: -o-linear-gradient(top, #338099, #338099);
+    background-image: linear-gradient(to bottom, #338099, #338099);
+	width: 250px;
+}
+.gBox.cNew.Reset {
+	background-image: -webkit-linear-gradient(top,#ff0040, #ff0040);
+    background-image: -moz-linear-gradient(top, #ff0040, #ff0040);
+    background-image: -webkit-linear-gradient(top, #ff0040, #ff0040);
+    background-image: -o-linear-gradient(top, #ff0040, #ff0040);
+    background-image: linear-gradient(to bottom, #ff0040, #ff0040);
+	width: 250px;
+}

@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Rammetto+One|Ubuntu|Kalam|Baloo');
+
+body {
+	/*Prevent Text Copy*/
+	-moz-user-select:none;
+	-o-user-select:none;
+	-ms-user-select:none;
+	-webkit-user-select:none;
+	user-select:none;
+	/*******************/
+	width: 100%;
+	margin: 0px auto;
+/*	background-color: #E6E6FA;*/
+	background:url(../Images/bgCover.png) repeat 0 0;
+	text-align:center;
+	font-family: 'Ubuntu', sans-serif;
+}
+#Head {
+	height: 50px;
+	text-align:center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Baloo', cursive;
+}
+#Foot {
+	font-family: 'Baloo', cursive;
+	height: 50px;
+	font-size: 14px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#HeadIcon {
+	color: white;
+	font-size: 25px;
+}
+#CopyNote {
+	color: white;
+	font-size: 15px;
+}
+#Content {
+	background: rgba(255,255,255, 0.5);
+	color: white;
+	font-size: 20px;
+	width: 80%;
+	margin: 0px auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 20px;
+}
+
+/*Blink Head Title*/
+.blink {
+	width: 20px;
+	height: 20px;
+	animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0.1;
+  }
+}
+.txtBox {
+/*	padding: 0;*/
+	font-family: "Ubuntu", sans serif;
+    height: 25px;
+	text-align:center;
+    outline: none;
+    border: 1px solid #cdcdcd;
+	border-color: #000000;
+    background-color: white;
+    font-size: 16px;
+	width: 200px;
+	border-radius: 5px;
+}
+#DBOLTime {
+	margin-left: 20px;
+	text-align:left;
+	font-size: 13px;
+	position: absolute;
+	font-weight: bold;
+}
+#DBOUInfo {
+	margin-right: 20px;
+	font-size: 13px;
+	text-align:right;
+	font-weight: bold;
+}
+.TopMessage {
+	font-family: 'Baloo', cursive;
+	text-align:center;
+	font-size:14px;
+	color: red;
+	cursor: not-allowed;
+	width: 400px;
+	margin: 0px auto;
+	animation: blinkerNotice 2s ease-in-out infinite;
+}
+.TopMessage:hover {
+	color: white
+}
+@keyframes blinkerNotice {
+  50% {
+    opacity: 0.5;
+  }
+}
+.timeStamp {
+	text-decoration: underline;
+}
+.userStamp {
+	text-decoration: none;
+}
+#QuickOperation {
+	font-family: 'Baloo', cursive;	
+	font-size: 18px;
+}
+.uLineHead {
+	text-decoration: underline;
+}
+#Action {
+	font-family: 'Baloo', cursive;
+	font-size: 18px;
+	text-align: center;
+}
+.quicktool {
+	cursor:pointer;
+	border-radius: 90px;
+	padding: 10px 10px 10px 10px;
+}
+.LogOut {
+	cursor:pointer;
+}
+.LogOut:hover {
+	background: white;
+	border-radius: 50px;
+}
+.msgArea {
+	font-family: 'Ubuntu', sans-serif;
+	height: 200px;
+	width: 250px;
+	resize:none;
+	overflow: auto;
+    border: 1px solid #cdcdcd;
+    border-color: rgba(0,0,0,.15);
+	border-radius: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	text-align: left;
+    white-space: normal;
+}
+.daTable {
+	width: 100%;
+	text-align:center;
+}
+.accept {
+	font-size: 13px;
+	font-family: 'Ubuntu', sans-serif;
+}
+.QAlert {
+	font-size: 14px;
+	font-family: 'Ubuntu', sans-serif;
+	color: red;
+	font-weight: bold;
+}
+.gBox {
+	font-family: 'Ubuntu', sans-serif;
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #2E8B57, #2E8B57);
+    background-image: -moz-linear-gradient(top, #2E8B57, #2E8B57);
+    background-image: -webkit-linear-gradient(top, #2E8B57, #2E8B57);
+    background-image: -o-linear-gradient(top, #2E8B57, #2E8B57);
+    background-image: linear-gradient(to bottom, #2E8B57, #2E8B57);
+	border-radius: 60px;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+    cursor:pointer;
+	width: 110px;
+	border: 0px;
+}
+.gBox:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+}
+.gBox.cNew {
+	background-image: -webkit-linear-gradient(top, #338099, #338099);
+    background-image: -moz-linear-gradient(top, #338099, #338099);
+    background-image: -webkit-linear-gradient(top, #338099, #338099);
+    background-image: -o-linear-gradient(top, #338099, #338099);
+    background-image: linear-gradient(to bottom, #338099, #338099);
+	width: 250px;
+}
+.gBox.Link {
+	width: 350px;
+}
+.headNote {
+	color: white;
+}
+#Frame_CT {
+	display: none;
+}
+#Visuals {
+	display: block;
+	font-size: 15px;
+	color: white;
+	background-color: rgb(0,0,0,0.2);
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}

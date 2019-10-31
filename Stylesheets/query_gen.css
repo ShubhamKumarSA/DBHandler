@@ -1,0 +1,82 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&Molengo');
+#q_typeHead {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+#q_typeSubHead {
+	font-size: 15px;
+	text-decoration: underline;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+#QuickQueryPane {
+	font-size: 13px;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+#QuickSelect {
+	color: #4B846C;
+	width: 70%;
+	margin: 0px auto;
+}
+#QuickInsert {
+	color: #4B846C;
+	width: 70%;
+	margin: 0px auto;
+}
+#QuickDelete {
+	color: #4B846C;
+	width: 70%;
+	margin: 0px auto;
+}
+#QuickUpdate {
+	color: #4B846C;
+	width: 70%;
+	margin: 0px auto;
+}
+#SQLDrop {
+	color: #4B846C;
+	width: 70%;
+	margin: 0px auto;
+}
+table {	
+}
+td{
+	padding: 5px 5px 5px 5px;
+	text-align:left;
+}
+.tdMsg {
+	color:#74788F;
+	font-weight:bold;
+	font-style:italic;
+}
+#selAddField {
+	display: none;
+}
+#QueryArea {
+	text-align: left;
+    white-space: normal;
+	width: 500px;
+	height: 200px;
+	font-size: 18px;
+	font-family: 'Molengo', sans-serif;
+	resize:none;
+	border: 1px solid;
+}
+.imgCopy {
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+.WarningInfo {
+	text-align: center;
+	background-color: #05555F4D !important;
+	color: #02126b;
+	font-weight: bold;
+}
+.InformInfo {
+	text-align: center;
+	background-color: #1ABC9C !important;
+	color: #FFF;
+	font-weight: bold;
+}
